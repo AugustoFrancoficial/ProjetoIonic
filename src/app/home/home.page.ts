@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  nomes: string[];
 
-  constructor() {}
-
+  constructor() {
+    this.nomes = ['Nome1', 'Nome2', 'Nome3']; // Aqui você pode adicionar os nomes que desejar
+  }
 }
